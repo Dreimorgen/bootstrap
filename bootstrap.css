@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url('http://themes.googleusercontent.com/static/fonts/droidsansmono/v3/ns-m2xQYezAtqh7ai59hJS3rKpnh3vKfPxmMHVt_-Qc.ttf') format('truetype');
+}
+
 /*!
  * Bootstrap v1.4.0
  *
@@ -68,9 +75,9 @@ td {
   border: 0;
   font-weight: normal;
   font-style: normal;
-  font-size: 100%;
-  line-height: 1;
-  font-family: inherit;
+  font-size:14px;
+  line-height: 1.6em;
+  font-family:'Droid Sans Mono',monospace;
 }
 table {
   border-collapse: collapse;
