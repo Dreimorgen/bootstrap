@@ -1192,8 +1192,7 @@ table .headerSortDown.purple {
   z-index: 10000;
   overflow: visible; }
   .topbar a {
-    color: #bfbfbf;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    color: #bfbfbf; }
   .topbar h3 a:hover,
   .topbar .brand:hover,
   .topbar ul .active > a {
@@ -1213,6 +1212,11 @@ table .headerSortDown.purple {
     font-size: 20px;
     font-weight: 200;
     line-height: 1; }
+  .topbar .brand span {
+    background: yellow;
+    color: black;
+    padding: 0 2px;
+    margin: 0 0 0 3px; }
   .topbar p {
     margin: 0;
     line-height: 40px; }
