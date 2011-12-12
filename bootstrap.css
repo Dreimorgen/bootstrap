@@ -216,7 +216,10 @@ background-image: -webkit-gradient(
 }
 #masthead .container {
   padding-top:50px;
+
 }
+#masthead a { color:yellow; }
+#masthead a:hover { background:black; }
 .container {
   width: 940px;
   margin-left: auto;
@@ -257,13 +260,13 @@ background-image: -webkit-gradient(
 }
 
 a {
-  color: #0069d6;
-  text-decoration: none;
+  color: black;
+  text-decoration:underline;
   line-height: inherit;
   font-weight: inherit;
 }
 a:hover {
-  color: #00438a;
+  background:yellow;
   text-decoration: underline;
 }
 .pull-right {
