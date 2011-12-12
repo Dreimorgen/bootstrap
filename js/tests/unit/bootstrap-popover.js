@@ -72,5 +72,4 @@ $(function () {
         ok(!$('.popover').length, 'popover was removed')
         $('#qunit-runoff').empty()
       })
-
 })
