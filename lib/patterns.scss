@@ -8,7 +8,7 @@
 
 // Topbar for Branding and Nav
 .topbar {
-  height: 40px;
+  height: 34px;
   position: fixed;
   top: 0;
   left: 0;
@@ -42,7 +42,7 @@
   .brand {
     float: left;
     display: block;
-    padding: 12px 20px 12px;
+    padding: 10px 20px 12px;
     margin-left: -20px; // negative indent to left-align the text down the page
     color: $white;
     font-size: 20px;
@@ -125,6 +125,7 @@
   @include vertical-gradient(#333, #222);
   $shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   @include box-shadow($shadow);
+  height:34px;
 }
 
 
@@ -148,7 +149,7 @@
   a {
     display: block;
     float: none;
-    padding: 10px 10px 11px;
+    padding: 8px 10px 7px;
     line-height: 19px;
     text-decoration: none;
     &:hover {
