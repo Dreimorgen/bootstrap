@@ -191,7 +191,7 @@ textarea {
 body {
   background-color: white;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Sans Mono", monospace;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
