@@ -1298,7 +1298,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .topbar h3 a, .topbar .brand {
   float: left;
   display: block;
-  padding: 6px 10px 0px;
+  padding: 3px 10px 0px;
   color: #ffffff;
 }
 .topbar p {
