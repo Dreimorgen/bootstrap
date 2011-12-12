@@ -21,6 +21,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size:14px;
+  line-height: 1.6em;
+  font-family:'Droid Sans Mono',monospace;
 }
 h1,
 h2,
@@ -444,6 +449,12 @@ h2:before {
 h3 { margin-bottom:1em; }
 h3:before {
 	content: "### "; }
+.topbar h1:before,
+.topbar h2:before,
+.topbar h3:before {content:"";}
+.topbar h1,
+.topbar h2,
+.topbar h3 { margin:0; }
 ul, ol {
   margin: 0 0 18px 25px;
 }
