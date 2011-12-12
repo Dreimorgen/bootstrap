@@ -2,6 +2,11 @@
  * Headings, body text, lists, code, and more for a versatile and durable typography system
  * ---------------------------------------------------------------------------------------- */
 
+// text selection color
+::selection 	 	{background: $selectionColor;}
+::-moz-selection 	{background: $selectionColor;}
+img::selection 		{background: transparent;}
+img::-moz-selection {background: transparent;}
 
 // BODY TEXT
 // ---------

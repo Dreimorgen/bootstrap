@@ -348,6 +348,18 @@ a {
 /* Typography.scss
  * Headings, body text, lists, code, and more for a versatile and durable typography system
  * ---------------------------------------------------------------------------------------- */
+::selection {
+  background: rgba(255, 255, 0, 0.5); }
+
+::-moz-selection {
+  background: rgba(255, 255, 0, 0.5); }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
 p {
   font-size: 14px;
   font-weight: normal;
