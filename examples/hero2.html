@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="../bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+         .hero-unit{
+            margin-top:60px;
+        }
+
+        .dropdown-toggle::after {
+            margin-top: 5px;
+        }
+.dropdown-menu {
+position: absolute;
+top: 34px;
+z-index: 900;
+float: left;
+display: none;
+min-width: 160px;
+max-width: 220px;
+_width: 160px;
+padding: 6px 0;
+margin-left: 0;
+margin-right: 0;
+background-color: white;
+border-color: #999;
+border-color: rgba(0, 0, 0, 0.2);
+border-style: solid;
+border-width: 0 1px 1px;
+-webkit-border-radius: 0 0 6px 6px;
+-moz-border-radius: 0 0 6px 6px;
+border-radius: 0 0 6px 6px;
+-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding-box;
+background-clip: padding-box;
+zoom: 1;
+}
+ul.localBar{
+    width:869px!important;
+    margin:0 0 0 71px!important;
+    max-width:869px!important;
+}
+
+.localBar li{
+    width:869px!important;
+    max-width:869px!important;
+}
+
+.localBar li p{
+    padding:0 0 0 15px;
+    color:yellow;
+    line-height:1.5;
+}
+.localBar li a {
+    max-width:869px!important;
+    display:block;
+}
+.localBar li a span{
+    background:yellow;
+    padding:1px 2px 1px 2px;
+    margin:0 5px 0 0;
+    text-shadow:none!important;
+    color:black;
+
+}
+    </style>
+    <script src="http://code.jquery.com/jquery-1.7.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.dropdown-toogle').dropdown();
+        });
+    </script>
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <ul class="nav">
+            <li class="dropdown">
+              <a href="#" class="brand dropdown-toggle" data-toggle="dropdown">Dreimorgen<span>Strapon</span></a>
+              <ul class="dropdown-menu localBar">
+                  <li><p>Dies sind alle Seiten aus unserem Dreimorgen
+                  Netzwerk</p></li>
+                <li class="divider"></li>
+                  
+                  <li><a href="#"><span>T29</span>Secondary link</a></li>
+
+                <li><a href="#"><span>Shop</span>Something else here</a></li>
+                <li><a href="#"><span>RWMspricht</span>Aenean eu leo quam.</a></li>
+              </ul>
+            </li>              
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p><a href="#">dadda</a>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        <p><a class="btn primary large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <h2>Heading</h2>
+          <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span5">
+          <h2>Heading</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span5">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; Company 2011</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
