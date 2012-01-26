@@ -17,6 +17,7 @@
          .hero-unit{
             margin-top:60px;
         }
+ 
             </style>
 
     <!-- Le fav and touch icons -->
@@ -29,6 +30,7 @@
     
     <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
 
   </head>
 
@@ -61,14 +63,32 @@
       <div class="navbar-inner">
         <div class="container">
           <a class="brand" href="#">Dreimorgen<span>Strapon</span></a>
-          <ul class="nav">
+          <ul class="nav" id="desktopNav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+             <li class="pull-right"><a data-toggle="modal"
+                 href="#ImpressumModal" >Impressum</a></li>
+
           </ul>
-          <p class="pull-right"><a data-toggle="modal" href="#ImpressumModal" >Impressum</a></p>
-          
+                  <ul id="mobileNav" class="nav">
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown">menu</a>
+          <ul class="dropdown-menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+             <li class="pull-right"><a data-toggle="modal"
+                 href="#ImpressumModal" >Impressum</a></li>
+
+
+        </ul></li>
+          </ul>
+  
+      </div>
+               
         </div>
+
       </div>
     </div>
 
