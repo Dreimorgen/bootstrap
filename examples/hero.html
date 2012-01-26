@@ -25,9 +25,38 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <script src="http://code.jquery.com/jquery-1.7.js"></script>
+    
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+
   </head>
 
   <body>
+
+ <!-- Imprint Modal -->
+          <div id="ImpressumModal" class="modal hide fade">
+            <div class="modal-header">
+              <a href="#" class="close" data-dismiss="modal" >&times;</a>
+              <h3>Impressum</h3>
+            </div>
+            <div class="modal-body">
+                <p>Dreimorgen<br/>
+                Ghassemlou, Renfro GbR<br/>
+                Taunusstraße 29<br/>
+                60329 Frankfurt am Main<br/>
+                Deutschland<br/><br/>
+                Telefon: +49 69 963 768 780<br/>
+                Telefax: +49 69 963 768 789<br/>
+                Email: info@dreimorgen.com<br/>
+                USt-IdNr: DE238938998<br/>
+                </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn" data-dismiss="modal" >Schließen</a>
+            </div>
+          </div>
 
     <div class="navbar">
       <div class="navbar-inner">
@@ -38,6 +67,8 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <p class="pull-right"><a data-toggle="modal" href="#ImpressumModal" >Impressum</a></p>
+          
         </div>
       </div>
     </div>
